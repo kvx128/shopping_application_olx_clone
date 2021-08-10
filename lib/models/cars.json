@@ -1,0 +1,71 @@
+[
+    {
+        "id": 0,
+        "year" : 2018, 
+        "kmDriven" : 51000, 
+        "noOfOwners" : 2,
+        "brand": "Maruti Suzuki", 
+        "model": "Vitara Brezza", 
+        "variant": "VDi", 
+        "description": "Accidental: No\nTyre Condition: New\nVehicle Certified: Yes\nInsurance Type: Comprehensive\nRegistration Place: DL\nFinance: Yes\nService History: Available", 
+        "fuel": "Diesel",
+        "price": 765000,
+        "url": "https://www.olx.in/item/maruti-suzuki-vitara-brezza-vdi-option-2017-diesel-iid-1648162876"
+    },
+
+    {
+        "id": 1,
+        "year" : 2012, 
+        "kmDriven" : 65245, 
+        "noOfOwners" : 1,
+        "brand": "Hyundai", 
+        "model": "i20", 
+        "variant": "2012-2014 Sportz 1.4 CRDi", 
+        "description": "Hyundai i20 2012-2014 Sportz 1.4 CRDi, 2012, Diesel", 
+        "fuel": "Diesel",
+        "price": 290000,
+        "url": "https://www.olx.in/item/hyundai-i20-2012-2014-sportz-14-crdi-2012-diesel-iid-1645235917"
+    },
+
+    {
+        "id": 2,
+        "year" : 2018, 
+        "kmDriven" : 24000, 
+        "noOfOwners" : 1,
+        "brand": "Mahindra", 
+        "model": "Scorpio", 
+        "variant": "S11", 
+        "description": "2018 Mahindra Scorpio VLX S11, Manual, Diesel, 24000 kms, 1st Owner, Black clr, comprehensive insurance till sep 2021", 
+        "fuel": "Diesel",
+        "price": 1445000,
+        "url": "https://www.olx.in/item/mahindra-scorpio-s11-2018-diesel-iid-1646022008"
+    },
+
+    {
+        "id": 3,
+        "year" : 2019, 
+        "kmDriven" : 36000, 
+        "noOfOwners" : 1,
+        "brand": "BMW", 
+        "model": "5 Series", 
+        "variant": "520d Luxury Line", 
+        "description": "ADDITIONAL VEHICLE INFORMATION:\nColor: Blue\nEngine Capacity/Displacement (in Cc): 2000\nInsurance Type: Zero Dep\nRegistration Place: GJ", 
+        "fuel": "Diesel",
+        "price": 4600000,
+        "url": "https://www.olx.in/item/bmw-5-series-520d-luxury-line-2019-diesel-iid-1641243539"
+    },
+
+    {
+        "id": 4,
+        "year" : 2020, 
+        "kmDriven" : 5800, 
+        "noOfOwners" : 1,
+        "brand": "Mercedes-Benz", 
+        "model": "GLS", 
+        "variant": "400 4MATIC", 
+        "description": "ADDITIONAL VEHICLE INFORMATION:\nColor: Red\nInsurance Type: Comprehensive\nRegistration Place: WB\nExchange: Yes\nFinance: Yes", 
+        "fuel": "Diesel",
+        "price": 10900000,
+        "url": "https://www.olx.in/item/mercedes-benz-gls-400-4matic-2020-diesel-iid-1646907013"
+    }
+]

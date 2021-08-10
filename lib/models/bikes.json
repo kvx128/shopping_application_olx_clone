@@ -1,0 +1,51 @@
+[
+    {
+        "url" : "https://www.olx.in/item/i-want-to-sell-my-piaggiolml-vespa-vlx-125cc-2018-model-single-owner-iid-1644608799",
+        "brand": "Piaggio ",
+        "model": "Vespa",
+        "description": "I want to sell my piaggioLML vespa, vlx 125cc, 2018 model single owner",
+        "year": 2018,
+        "kmDriven": 23400,
+        "price": 72000
+    },
+
+    {
+        "url":"https://www.olx.in/item/bmw-310cc-x-abs-bsiv-blue-and-white2020-march-single-owner-self-sta-iid-1648560355",
+        "brand": "BMW",
+        "model": "310cc X ABS BSIV",
+        "description": "BMW 310cc X ABS BSIV, White and Blue,2020 March, single owner with road tax and 5 years insurance paid.with self start, alloy wheels digital meter and dual disk break.with complete documents and accessories very well maintained excellent condition immediate sale",
+        "year": 2020,
+        "kmDriven": 10500,
+        "price": 230000
+    },
+
+    {
+        "url": "https://www.olx.in/item/good-condition-iid-1648560223",
+        "brand": "Hero Honda",
+        "model": "CD Deluxe",
+        "description": "Very good condition . Good milage",
+        "year": 2007,
+        "kmDriven": 36000,
+        "price": 18000
+    },
+
+    {
+        "url": "https://www.olx.in/item/welll-maintained-iid-1648559605",
+        "brand": "Honda",
+        "model": "Activa",
+        "description": "good condition all original company record",
+        "year": 2019,
+        "kmDriven": 10250,
+        "price": 62000
+    },
+
+    {
+        "url": "https://www.olx.in/item/royal-enfield-classic-350-iid-1648067141",
+        "brand": "Royal Enfield",
+        "model": "Classic 350",
+        "description": "good condition, Engine puffed for Glazing, Expensive Led Headlight, All paper clear, Second Owner",
+        "year": 2015,
+        "kmDriven": 47000,
+        "price": 115000
+    }
+]

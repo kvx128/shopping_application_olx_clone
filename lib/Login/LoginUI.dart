@@ -1,12 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:shopping_application_olx_clone/Services/Auth.dart';
+import '../home.dart';
 import 'Email_auth.dart';
 import 'Phone_auth.dart';
 
-
-class LoginScreen extends StatelessWidget {
+class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
+
+  @override
+  _LoginScreenState createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
+  final AuthService _auth = AuthService();
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +25,18 @@ class LoginScreen extends StatelessWidget {
         backgroundColor: Color.fromARGB(255, 0, 48, 52),
         floatingActionButtonLocation: FloatingActionButtonLocation.startTop,
         floatingActionButton: FloatingActionButton(
-            onPressed: () {},
+            onPressed: () async {
+              dynamic result = await _auth.signInAnon();
+              if (result == null) {
+                print('error signing in');
+              } else {
+                print('signed in');
+                print(result.uid);
+              }
+
+              Navigator.pushReplacement(
+                  context, MaterialPageRoute(builder: (context) => Home()));
+            },
             child: Icon(
               FontAwesomeIcons.times,
               color: Color.fromARGB(255, 0, 48, 52),
@@ -65,7 +84,15 @@ class LoginScreen extends StatelessWidget {
                     child: Column(
                       children: [
                         ElevatedButton(
-                          onPressed: () {},
+                          onPressed: () async {
+                            dynamic result = await _auth.signInWithGoogle();
+                            if (result == null) {
+                              print('error signing in');
+                            } else {
+                              print('signed in');
+                              print(result.uid);
+                            }
+                          },
                           style: ElevatedButton.styleFrom(
                             primary: Colors.white,
                           ),
@@ -120,7 +147,10 @@ class LoginScreen extends StatelessWidget {
                         ),
                         ElevatedButton(
                           onPressed: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) => PhoneLogin()));
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (context) => PhoneLogin()));
                           },
                           style: ElevatedButton.styleFrom(
                             primary: Colors.white,
@@ -143,6 +173,9 @@ class LoginScreen extends StatelessWidget {
                               ),
                             ],
                           ),
+                        ),
+                        SizedBox(
+                          height: 10,
                         ),
                         Padding(
                           padding: const EdgeInsets.fromLTRB(40, 0, 40, 20),
@@ -200,4 +233,3 @@ class LoginScreen extends StatelessWidget {
     );
   }
 }
-
